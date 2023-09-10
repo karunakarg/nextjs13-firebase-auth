@@ -38,7 +38,9 @@ Firebase will give you .json file with you credentials
 
 Step 5: Go to config folder in this project, and update the firebase-admin-config.ts file with the relevant values from the json file you got from earlier step. Similarly, update the firebase-config.ts file using the the config obtained in step 3. For secrets, fill in the relevant env variables in your .env.local file. You can use .env.example file as reference or rename it to .env.local
 
-Step 6: Now, if you start the dev server using `npm run dev`, then you'll be able to use the login functionality.
+Step 6: In firebase console, enable Google Login and other providers you wish to use.
+
+Step 7: Now, if you start the dev server using `npm run dev`, then you'll be able to use the login functionality.
 
 A few details to make things clear:
 
